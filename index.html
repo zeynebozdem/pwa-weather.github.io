@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <select class="countries"></select>
+</body>
+<script>
+    getCountries();
+    document.querySelector(".countries").addEventListener("change",function () {
+        getWeather();
+    });
+    
+    //getWeather();
+    function getCountries() {
+        var countryKey="ba8575ac6553d65f95e5179aec7e3ed9"
+        var apiCallCountries = `http://battuta.medunes.net/api/country/all/?key=${countryKey}`;
+        fetch(apiCallCountries)
+            .then(response => response.json())
+            .then(data => {
+                window.countries = data;
+                var countriesBox = document.querySelector(".countries");
+                for (let i = 0; i < countries.length; i++) {
+                    countriesBox.insertAdjacentHTML("beforeend", `<option>${countries[i].name}</option>`);
+                }
+                //console.log(data) // Prints result from `response.json()` in getRequest
+            })
+            .catch(error => console.error(error))
+    }
+    function getWeather() {
+        window.city=document.querySelector(".countries").value;
+        console.log(city);
+        //key : 4ec1b7b6b51a6c71cc717bec0ce21ae5
+        var apiCallWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ec1b7b6b51a6c71cc717bec0ce21ae5`;
+        fetch(apiCallWeather)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data) // Prints result from `response.json()` in getRequest
+            })
+            .catch(error => console.error(error))
+
+    }
+
+
+
+
+</script>
+
+</html>

@@ -1,5 +1,10 @@
 window.addEventListener("load", () => {
-    
+    'use strict';
+  
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+               .register('./sw.js');
+    }
     //if you want to use browser's location
     /*
      if (navigator.geolocation) {
@@ -47,11 +52,3 @@ window.addEventListener("load", () => {
             .catch(error => console.error(error))
     }
 });
-window.onload = () => {
-    'use strict';
-  
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
-               .register('./sw.js');
-    }
-}

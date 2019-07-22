@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="manifest" href="/manifest.json">
+    <meta charset="utf-8">
     <title>Weather App</title>
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="images/snowflake_2744-3.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="white"/>
+    <meta name="theme-color" content="white" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Hello World">
@@ -20,16 +20,57 @@
 
 </head>
 
-<body>
-    <div class="userCityBox">
-            <input class="cityInput">
-            <button class="getWeatherButton">Submit</button>
+<body class="fullscreen flex-col">
+    <div class="container">
+        <div class="main flex-container flex-row">
+            <div>
+                <img class="weatherImg">
+            </div>
+            <div>
+                <span class="weatherTemp"></span>
+                <br>
+                <span class="weatherCity"></span>
+            </div>
+        </div>
+        <hr>
+        <div class="properties flex-container flex-col">
+            <div class="max-temp">
+                <span class="propTitle">Max Temp : </span>
+                <span class="propResult"></span>
+            </div>
+            <div class="min-temp">
+                <span class="propTitle">Min Temp : </span>
+                <span class="propResult"></span>
+            </div>
+            <div class="humidity">
+                <span class="propTitle">Humidity : </span>
+                <span class="propResult"></span>
+            </div>
+            <div class="pressure">
+                <span class="propTitle">Pressure : </span>
+                <span class="propResult"></span>
+            </div>
+            <div class="sunrise">
+                <span class="propTitle">Sunrise : </span>
+                <span class="propResult"></span>
+            </div>
+            <div class="sunset">
+                <span class="propTitle">Sunset : </span>
+                <span class="propResult"></span>
+            </div>
+        </div>
+        
     </div>
-   
-    <img class="weatherImg">
-    <span class="weatherTemp"></span>
-    <span class="weatherResult"></span>
+    <div class="containerElse">
+            <div class="userCityBox">
+                <input class="cityInput">
+                <button class="getWeatherButton">Weather</button>
+            </div>
+        </div>
+
+
 </body>
 <script src="js/main.js"></script>
+<script src="js/script.js"></script>
 
 </html>

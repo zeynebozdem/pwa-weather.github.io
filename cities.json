@@ -1,0 +1,407 @@
+[
+    {
+        "CityName": "ADANA",
+        "CityNameEn": "ADANA",
+        "CityID": "500"
+    },
+    {
+        "CityName": "ADIYAMAN",
+        "CityNameEn": "ADIYAMAN",
+        "CityID": "501"
+    },
+    {
+        "CityName": "AFYONKARAHİSAR",
+        "CityNameEn": "AFYONKARAHISAR",
+        "CityID": "502"
+    },
+    {
+        "CityName": "AĞRI",
+        "CityNameEn": "AGRI",
+        "CityID": "503"
+    },
+    {
+        "CityName": "AKSARAY",
+        "CityNameEn": "AKSARAY",
+        "CityID": "504"
+    },
+    {
+        "CityName": "AMASYA",
+        "CityNameEn": "AMASYA",
+        "CityID": "505"
+    },
+    {
+        "CityName": "ANKARA",
+        "CityNameEn": "ANKARA",
+        "CityID": "506"
+    },
+    {
+        "CityName": "ANTALYA",
+        "CityNameEn": "ANTALYA",
+        "CityID": "507"
+    },
+    {
+        "CityName": "ARDAHAN",
+        "CityNameEn": "ARDAHAN",
+        "CityID": "508"
+    },
+    {
+        "CityName": "ARTVİN",
+        "CityNameEn": "ARTVIN",
+        "CityID": "509"
+    },
+    {
+        "CityName": "AYDIN",
+        "CityNameEn": "AYDIN",
+        "CityID": "510"
+    },
+    {
+        "CityName": "BALIKESİR",
+        "CityNameEn": "BALIKESIR",
+        "CityID": "511"
+    },
+    {
+        "CityName": "BARTIN",
+        "CityNameEn": "BARTIN",
+        "CityID": "512"
+    },
+    {
+        "CityName": "BATMAN",
+        "CityNameEn": "BATMAN",
+        "CityID": "513"
+    },
+    {
+        "CityName": "BAYBURT",
+        "CityNameEn": "BAYBURT",
+        "CityID": "514"
+    },
+    {
+        "CityName": "BİLECİK",
+        "CityNameEn": "BILECIK",
+        "CityID": "515"
+    },
+    {
+        "CityName": "BİNGÖL",
+        "CityNameEn": "BINGOL",
+        "CityID": "516"
+    },
+    {
+        "CityName": "BİTLİS",
+        "CityNameEn": "BITLIS",
+        "CityID": "517"
+    },
+    {
+        "CityName": "BOLU",
+        "CityNameEn": "BOLU",
+        "CityID": "518"
+    },
+    {
+        "CityName": "BURDUR",
+        "CityNameEn": "BURDUR",
+        "CityID": "519"
+    },
+    {
+        "CityName": "BURSA",
+        "CityNameEn": "BURSA",
+        "CityID": "520"
+    },
+    {
+        "CityName": "ÇANAKKALE",
+        "CityNameEn": "CANAKKALE",
+        "CityID": "521"
+    },
+    {
+        "CityName": "ÇANKIRI",
+        "CityNameEn": "CANKIRI",
+        "CityID": "522"
+    },
+    {
+        "CityName": "ÇORUM",
+        "CityNameEn": "CORUM",
+        "CityID": "523"
+    },
+    {
+        "CityName": "DENİZLİ",
+        "CityNameEn": "DENIZLI",
+        "CityID": "524"
+    },
+    {
+        "CityName": "DİYARBAKIR",
+        "CityNameEn": "DIYARBAKIR",
+        "CityID": "525"
+    },
+    {
+        "CityName": "DÜZCE",
+        "CityNameEn": "DUZCE",
+        "CityID": "526"
+    },
+    {
+        "CityName": "EDİRNE",
+        "CityNameEn": "EDIRNE",
+        "CityID": "527"
+    },
+    {
+        "CityName": "ELAZIĞ",
+        "CityNameEn": "ELAZIG",
+        "CityID": "528"
+    },
+    {
+        "CityName": "ERZİNCAN",
+        "CityNameEn": "ERZINCAN",
+        "CityID": "529"
+    },
+    {
+        "CityName": "ERZURUM",
+        "CityNameEn": "ERZURUM",
+        "CityID": "530"
+    },
+    {
+        "CityName": "ESKİŞEHİR",
+        "CityNameEn": "ESKICity",
+        "CityID": "531"
+    },
+    {
+        "CityName": "GAZİANTEP",
+        "CityNameEn": "GAZIANTEP",
+        "CityID": "532"
+    },
+    {
+        "CityName": "GİRESUN",
+        "CityNameEn": "GIRESUN",
+        "CityID": "533"
+    },
+    {
+        "CityName": "GÜMÜŞHANE",
+        "CityNameEn": "GUMUSHANE",
+        "CityID": "534"
+    },
+    {
+        "CityName": "HAKKARİ",
+        "CityNameEn": "HAKKARI",
+        "CityID": "535"
+    },
+    {
+        "CityName": "HATAY",
+        "CityNameEn": "HATAY",
+        "CityID": "536"
+    },
+    {
+        "CityName": "IĞDIR",
+        "CityNameEn": "IGDIR",
+        "CityID": "537"
+    },
+    {
+        "CityName": "ISPARTA",
+        "CityNameEn": "ISPARTA",
+        "CityID": "538"
+    },
+    {
+        "CityName": "İSTANBUL",
+        "CityNameEn": "ISTANBUL",
+        "CityID": "539"
+    },
+    {
+        "CityName": "İZMİR",
+        "CityNameEn": "IZMIR",
+        "CityID": "540"
+    },
+    {
+        "CityName": "KAHRAMANMARAŞ",
+        "CityNameEn": "KAHRAMANMARAS",
+        "CityID": "541"
+    },
+    {
+        "CityName": "KARABÜK",
+        "CityNameEn": "KARABUK",
+        "CityID": "542"
+    },
+    {
+        "CityName": "KARAMAN",
+        "CityNameEn": "KARAMAN",
+        "CityID": "543"
+    },
+    {
+        "CityName": "KARS",
+        "CityNameEn": "KARS",
+        "CityID": "544"
+    },
+    {
+        "CityName": "KASTAMONU",
+        "CityNameEn": "KASTAMONU",
+        "CityID": "545"
+    },
+    {
+        "CityName": "KAYSERİ",
+        "CityNameEn": "KAYSERI",
+        "CityID": "546"
+    },
+    {
+        "CityName": "KİLİS",
+        "CityNameEn": "KILIS",
+        "CityID": "547"
+    },
+    {
+        "CityName": "KIRIKKALE",
+        "CityNameEn": "KIRIKKALE",
+        "CityID": "548"
+    },
+    {
+        "CityName": "KIRKLARELİ",
+        "CityNameEn": "KIRKLARELI",
+        "CityID": "549"
+    },
+    {
+        "CityName": "KIRŞEHİR",
+        "CityNameEn": "KIRCity",
+        "CityID": "550"
+    },
+    {
+        "CityName": "KOCAELİ",
+        "CityNameEn": "KOCAELI",
+        "CityID": "551"
+    },
+    {
+        "CityName": "KONYA",
+        "CityNameEn": "KONYA",
+        "CityID": "552"
+    },
+    {
+        "CityName": "KÜTAHYA",
+        "CityNameEn": "KUTAHYA",
+        "CityID": "553"
+    },
+    {
+        "CityName": "MALATYA",
+        "CityNameEn": "MALATYA",
+        "CityID": "554"
+    },
+    {
+        "CityName": "MANİSA",
+        "CityNameEn": "MANISA",
+        "CityID": "555"
+    },
+    {
+        "CityName": "MARDİN",
+        "CityNameEn": "MARDIN",
+        "CityID": "556"
+    },
+    {
+        "CityName": "MERSİN",
+        "CityNameEn": "MERSIN",
+        "CityID": "557"
+    },
+    {
+        "CityName": "MUĞLA",
+        "CityNameEn": "MUGLA",
+        "CityID": "558"
+    },
+    {
+        "CityName": "MUŞ",
+        "CityNameEn": "MUS",
+        "CityID": "559"
+    },
+    {
+        "CityName": "NEVŞEHİR",
+        "CityNameEn": "NEVCity",
+        "CityID": "560"
+    },
+    {
+        "CityName": "NİĞDE",
+        "CityNameEn": "NIGDE",
+        "CityID": "561"
+    },
+    {
+        "CityName": "ORDU",
+        "CityNameEn": "ORDU",
+        "CityID": "562"
+    },
+    {
+        "CityName": "OSMANİYE",
+        "CityNameEn": "OSMANIYE",
+        "CityID": "563"
+    },
+    {
+        "CityName": "RİZE",
+        "CityNameEn": "RIZE",
+        "CityID": "564"
+    },
+    {
+        "CityName": "SAKARYA",
+        "CityNameEn": "SAKARYA",
+        "CityID": "565"
+    },
+    {
+        "CityName": "SAMSUN",
+        "CityNameEn": "SAMSUN",
+        "CityID": "566"
+    },
+    {
+        "CityName": "ŞANLIURFA",
+        "CityNameEn": "SANLIURFA",
+        "CityID": "567"
+    },
+    {
+        "CityName": "SİİRT",
+        "CityNameEn": "SIIRT",
+        "CityID": "568"
+    },
+    {
+        "CityName": "SİNOP",
+        "CityNameEn": "SINOP",
+        "CityID": "569"
+    },
+    {
+        "CityName": "ŞIRNAK",
+        "CityNameEn": "SIRNAK",
+        "CityID": "570"
+    },
+    {
+        "CityName": "SİVAS",
+        "CityNameEn": "SIVAS",
+        "CityID": "571"
+    },
+    {
+        "CityName": "TEKİRDAĞ",
+        "CityNameEn": "TEKIRDAG",
+        "CityID": "572"
+    },
+    {
+        "CityName": "TOKAT",
+        "CityNameEn": "TOKAT",
+        "CityID": "573"
+    },
+    {
+        "CityName": "TRABZON",
+        "CityNameEn": "TRABZON",
+        "CityID": "574"
+    },
+    {
+        "CityName": "TUNCELİ",
+        "CityNameEn": "TUNCELI",
+        "CityID": "575"
+    },
+    {
+        "CityName": "UŞAK",
+        "CityNameEn": "USAK",
+        "CityID": "576"
+    },
+    {
+        "CityName": "VAN",
+        "CityNameEn": "VAN",
+        "CityID": "577"
+    },
+    {
+        "CityName": "YALOVA",
+        "CityNameEn": "YALOVA",
+        "CityID": "578"
+    },
+    {
+        "CityName": "YOZGAT",
+        "CityNameEn": "YOZGAT",
+        "CityID": "579"
+    },
+    {
+        "CityName": "ZONGULDAK",
+        "CityNameEn": "ZONGULDAK",
+        "CityID": "580"
+    }
+]

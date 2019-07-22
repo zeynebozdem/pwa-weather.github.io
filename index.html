@@ -13,30 +13,24 @@
 <body>
     <select class="countries"></select>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 <script>
-    getCountries();
-    document.querySelector(".countries").addEventListener("change",function () {
+    document.querySelector(".countries").addEventListener("change", function () {
         getWeather();
     });
-    
-    //getWeather();
-    function getCountries() {
-        var countryKey="ba8575ac6553d65f95e5179aec7e3ed9"
-        var apiCallCountries = `http://battuta.medunes.net/api/country/all/?key=${countryKey}`;
-        fetch(apiCallCountries)
-            .then(response => response.json())
-            .then(data => {
-                window.countries = data;
-                var countriesBox = document.querySelector(".countries");
-                for (let i = 0; i < countries.length; i++) {
-                    countriesBox.insertAdjacentHTML("beforeend", `<option>${countries[i].name}</option>`);
-                }
-                //console.log(data) // Prints result from `response.json()` in getRequest
-            })
-            .catch(error => console.error(error))
-    }
+
+
+
+
+
+
+
+    function getAutoCompleteCity() { 
+
+     }
     function getWeather() {
-        window.city=document.querySelector(".countries").value;
+        window.city = document.querySelector(".countries").value;
         console.log(city);
         //key : 4ec1b7b6b51a6c71cc717bec0ce21ae5
         var apiCallWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ec1b7b6b51a6c71cc717bec0ce21ae5`;
@@ -46,7 +40,6 @@
                 console.log(data) // Prints result from `response.json()` in getRequest
             })
             .catch(error => console.error(error))
-
     }
 
 

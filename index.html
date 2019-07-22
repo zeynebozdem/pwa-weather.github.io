@@ -11,41 +11,15 @@
 </head>
 
 <body>
-    <input class="countries">
-    <button class="countriesButton">Click</button><br>
+    <img class="weatherImg">
     <span class="weatherTemp"></span>
     <span class="weatherResult"></span>
-    <img class="weatherImg">
+
+
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script>
-    //cookiede blabla değeri varsa
-    document.querySelector(".countriesButton").addEventListener("click", function () {
-        getWeather();
-    });
-
-    function getWeather() {
-        window.city = document.querySelector(".countries").value;
-        console.log(city);
-        //key : 4ec1b7b6b51a6c71cc717bec0ce21ae5
-        var apiCallWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4ec1b7b6b51a6c71cc717bec0ce21ae5&units=metric`;
-        fetch(apiCallWeather)
-            .then(response => response.json())
-            .then(data => {
-                console.log(data) // Prints result from `response.json()` in getRequest
-                var temp=data.main.temp;
-                var weatherDescription=data.weather[0].description;
-                var weatherIcon=data.weather[0].icon;
-                document.querySelector(".weatherResult").innerText=" - " + weatherDescription;
-                document.querySelector(".weatherTemp").innerText=temp;
-                document.querySelector(".weatherImg").setAttribute("src",`http://openweathermap.org/img/wn/${weatherIcon}@2x.png`);
-            })
-            .catch(error => console.error(error))
-    }
-
-
-
-
-</script>
+<script src="main.js"></script>
 
 </html>

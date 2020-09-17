@@ -12,7 +12,7 @@ http://weatherpwa.surge.sh/
 
 Clone down this repository:
 
-    git clone https://github.com/zeynebozdem/pwa-weather.github.io.git
+    git clone https://github.com/zeynebozdem/weather-progressive-web-app.git
 
 Serve with hot reload at http://127.0.0.1:8080
 

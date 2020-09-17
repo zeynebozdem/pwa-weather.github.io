@@ -5,7 +5,8 @@
 - [Jquery](https://github.com/jquery/jquery)
 - [PWA - Progressive Web App](https://developer.mozilla.org/tr/docs/Web/Progressive_web_apps/Offline_Service_workers)
 
-Check this on github pages http://weatherpwa.surge.sh/
+Check this on github pages https://zeynebozdem.github.io/weather-progressive-web-app/ 
+http://weatherpwa.surge.sh/
 
 **Installation and Setup Instructions**
 
